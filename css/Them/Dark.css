@@ -1,0 +1,51 @@
+:root{
+    /* Dark Mode */
+    --Dark-Body :#2c2d2f ;
+    --Dark-Text :#54e0d5 ;
+    --Dark-Text-Hover :#f2f2f2 ;
+    }
+
+body {
+    background-color: var(--Dark-Body);
+}
+.Nav-Menu {
+    color:var(--Dark-Text);
+}
+.Nav-Menu:hover {
+    color:var(--Dark-Text-Hover);
+}
+.Title-Home {
+    color:var(--Dark-Text);
+}
+.Header {
+    background-color: var(--Dark-Body);
+}
+#Logo {
+    color: var(--Dark-Text);
+}
+#Logo p {
+    color: var(--Dark-Text);
+}
+.Header-Icon {
+    color: var(--Dark-Text);
+}
+.shop p,h3 
+{
+    color: var(--Dark-Text);
+}
+.Learn p,
+h3 {
+    color: var(--Dark-Text);
+}
+#Branches h3 {
+    color: var(--Dark-Text);
+}
+#Branches p {
+    color: var(--Dark-Text);
+}
+.Branches-List h4 {
+    color: var(--Dark-Text);
+}
+.Branches-List p {
+    color: var(--Dark-Text);
+}

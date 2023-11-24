@@ -1,0 +1,50 @@
+:root{
+    /* Light Mode */
+    --Light-Body :#f2f2f2;
+    --Light-Text :#2c2d2f;
+    --Light-Text-Hover :#818284;
+    }
+body {
+    background-color: var(--Light-Body);
+}
+.Nav-Menu {
+    color:var(--Light-Body);
+}
+.Nav-Menu:hover {
+    color:var(--Light-Text-Hover);
+}
+.Title-Home {
+    color:var(--Light-Body);
+}
+.Header {
+    background-color: var(--Light-Body);
+}
+#Logo {
+    color: var(--Light-Text);
+}
+#Logo p {
+    color: var(--Light-Text);
+}
+.Header-Icon {
+    color: var(--Light-Text);
+}
+.shop p,h3 
+{
+    color: var(--Light-Text);
+}
+.Learn p,
+h3 {
+    color: var(--Light-Text);
+}
+#Branches h3 {
+    color: var(--Light-Text);
+}
+#Branches p {
+    color: var(--Light-Text);
+}
+.Branches-List h4 {
+    color: var(--Light-Text);
+}
+.Branches-List p {
+    color: var(--Light-Text);
+}

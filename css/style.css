@@ -1,0 +1,84 @@
+/* Home */
+.Home {
+    width: 100%;
+    height: 100%;
+    /* background: url("../img/BackGround_02.jpg"); */
+    transition: all 2s ease-in-out ;
+    background-position: center;
+    background-size: cover;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+.Over-Home {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.Nav-Menu {
+    text-decoration: none;
+}
+.Nav-Menu:hover {
+    text-decoration: none;
+}
+.Title-Home {
+    text-align: center;
+    margin-top: 25%;
+}
+/* Header */
+.Header-Items {
+    width: 100%;
+    height: 100%;
+}
+.Header-Items #Them-Lang,
+#Social-Media,
+#Logo {
+    height: 100%;
+}
+#Them-Lang {
+    text-align: start;
+}
+#Logo {
+    text-align: center;
+}
+#Logo p {
+    text-decoration: none;
+}
+#Social-Media {
+    text-align: center;
+}
+/* Shop */
+.shop p,h3 
+{
+    text-align: center;
+}
+/* Learn */
+.Learn p,
+h3 {
+    text-align: center;
+}
+
+.Slider 
+{
+    display: flex;
+    overflow-x: auto;
+    /* white-space: nowrap; */
+}
+.Product 
+{
+    flex: 0 0 auto;
+}
+/* Branches */
+#Branches p {
+    text-align: center;
+}
+.Branches-List h4 {
+    text-align: center;
+}
+.Branches-List h4 {
+    cursor: pointer;
+}
+.Branches-List p {
+    text-align: center;
+}

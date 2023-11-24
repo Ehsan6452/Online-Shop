@@ -1,0 +1,125 @@
+/* Mobile S */
+@media screen and (max-width:320px) {
+    #html{
+        width: 106%;
+    }
+    /* Home */
+    .Home {
+        width: 100%;
+        height: 30%;
+    }
+    .Nav-Home {
+        width: 100%;
+        height: 50px;
+        transition: all 0.5s ease-in-out ;
+    }
+    .Nav-Menu {
+        font-size: 10px;
+        transition: all 0.5s ease-in-out ;
+    }
+    .Title-Home {
+        margin-top: 15%;
+        transition: all 0.5s ease-in-out ;
+    }
+    .Title-Home h2 {
+        font-size: 15px;
+        transition: all 0.5s ease-in-out ;
+    }
+    
+    .Title-Home p {
+        margin-top: 15px;
+        font-size: 7px;
+        transition: all 0.5s ease-in-out ;
+    }
+    /* Heeader */
+    .Header {
+        margin-top: 0px;
+        padding-top: 5px;
+        width: 100%;
+        height: 65px;
+    }
+    #Logo {
+        height: 20px;
+        font-size: 7px;
+    }
+    .Themes {
+        height: 100%;
+        width: 50%;
+    }
+    .Header-Icon {
+        width: 10%;
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    /* Shop */
+    .shop {
+        height: 1400px;
+        padding-top: 50px;
+    }
+    .shop p {
+        font-size: 7px;
+    }
+    .shop h3 {
+        font-size: 15px;
+    }
+    #Adult,
+    #Young,
+    #Tools,
+    #Gift
+    {
+        width: 70%;
+        height: 15% !important;
+        margin-top: 5px;
+        margin: 10px 15% !important;
+    }
+    /* Learn */
+    .Learn {
+        height: 550px;
+        padding-top: 75px;
+    }
+    .Learn p {
+        font-size: 10px;
+    }
+    
+    .Learn h3 {
+        font-size: 20px;
+    }
+    .Leason h3 {
+        font-size: 12px !important;
+    }
+    .Leason p{
+        font-size: 10px !important;
+    }
+    .Product 
+    {
+        margin-left: 20px;
+        margin-right: 0px;
+        width: 90%;
+    }
+    /* Branches */
+    .Branches {
+        width: 100%;
+        padding-top: 75px;
+        height: 500px;
+    }
+    .Branches-Map {
+        width: 80%;
+        margin: 0px 2% !important;
+    }
+    .Branches-List {
+        width: 80%;
+        margin: 10px 10% !important;
+    }
+    #Branches h3 {
+        font-size: 20px;
+    }
+    #Branches p {
+        font-size: 10px;
+    }
+    .Branches-List h4 {
+        font-size: 20px;
+    }
+    .Branches-List p {
+        font-size: 15px;
+    }
+}
