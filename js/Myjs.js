@@ -24,7 +24,7 @@ var backgroundIndex = 0;
 var backgroundImages = ['BackGround_01.jpg', 'BackGround_02.jpg', 'BackGround_03.jpg'];
 
 function changeBackground() {
-    document.getElementById('Home').style.backgroundImage = 'url(./img/' + backgroundImages[backgroundIndex] + ')';
+    document.getElementById('Home').style.backgroundImage = 'url(../img/' + backgroundImages[backgroundIndex] + ')';
     backgroundIndex++;
     if (backgroundIndex >= backgroundImages.length) {
         backgroundIndex = 0;
