@@ -21,7 +21,7 @@ function Them(mode) {
 // 
 
 var backgroundIndex = 0;
-var backgroundImages = ['../img/BackGround_01.jpg', '../img/BackGround_02.jpg', '../img/BackGround_03.jpg'];
+var backgroundImages = ['img/BackGround_01.jpg', 'img/BackGround_02.jpg', 'img/BackGround_03.jpg'];
 
 function changeBackground() {
     document.getElementById('Home').style.backgroundImage = 'url(' + backgroundImages[backgroundIndex] + ')';
