@@ -21,10 +21,10 @@ function Them(mode) {
 // 
 
 var backgroundIndex = 0;
-var backgroundImages = ['img/BackGround_01.jpg', 'img/BackGround_02.jpg', 'img/BackGround_03.jpg'];
+var backgroundImages = ['BackGround_01.jpg', 'BackGround_02.jpg', 'BackGround_03.jpg'];
 
 function changeBackground() {
-    document.getElementById('Home').style.backgroundImage = 'url(' + backgroundImages[backgroundIndex] + ')';
+    document.getElementById('Home').style.backgroundImage = 'url(./img/' + backgroundImages[backgroundIndex] + ')';
     backgroundIndex++;
     if (backgroundIndex >= backgroundImages.length) {
         backgroundIndex = 0;
@@ -39,13 +39,13 @@ function Light() {
     document.getElementById('Them_Dark').style.display = 'none';
     document.getElementById('Them_Light').style.display ='flex';
     // 
-    document.getElementsByTagName('link')[7].href = 'css/Them/Light.css';
+    document.getElementsByTagName('link')[7].href = '../css/Them/Light.css';
 }
 function Dark() {
     document.getElementById('Them_Dark').style.display = 'flex';
     document.getElementById('Them_Light').style.display ='none';
     // 
-    document.getElementsByTagName('link')[7].href = 'css/Them/Dark.css';
+    document.getElementsByTagName('link')[7].href = '../css/Them/Dark.css';
 
 }
 function Change_Map(City) {
